@@ -1,6 +1,6 @@
 # Slack Proxy
 
-This extremely simple app solves a somewhat niche problem- letting your developers send notifications to Slack without having needing them to manage webhooks. You deploy this app inside your network and have them send their messages to it, and then it forwards it on to Slack and returns the response.
+This extremely simple app solves a somewhat niche problem- letting your developers send notifications to Slack without needing them to manage webhooks. You deploy this app inside your network and have them send their messages to it, and then it forwards it on to Slack and returns the response.
 
 ## Configuration
 
