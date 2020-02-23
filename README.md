@@ -9,3 +9,8 @@ The `SLACK_WEBHOOK` environmental variable needs to be set.
 ## Sending Messages with the Slack Incoming Webhooks API
 
 This proxy passes messages directly to the [Slack Incoming Webhooks API](https://api.slack.com/messaging/webhooks), without modification. The only thing developers have to do is point their request at this service instead of the `https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX` URL.
+
+
+## Docker
+
+This application can be found as a prebuild docker container on [docker hub](https://hub.docker.com/repository/docker/tedivm/slack_proxy).
